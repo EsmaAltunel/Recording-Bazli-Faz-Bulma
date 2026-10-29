@@ -1,0 +1,35 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# CatBoost training logs
+catboost_info/
+
+# Raw sensor & joblib data
+ham_sensor_verileri/
+joblibler/
+joblibler_2/
+*.joblib
+
+# Generated datasets & outputs
+full_recording_ml_training_data*.csv
+unlabeled_full_recording_features*.csv
+predicted_phases*.csv
+predicted_phase_segments*.csv
+full_recording_loso_fold_results.csv
+full_recording_phase_accuracy.csv
+zamanlama_degerlendirme_sonuclari.csv
+Recording_Bazli_Landing_Median_Sync/
+Selection_Sonuclari/
+confusion_matrix_*.png
+
+# OS & IDE files
+.DS_Store
+.vscode/
+.idea/
